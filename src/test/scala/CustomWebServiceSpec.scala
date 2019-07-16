@@ -1,5 +1,6 @@
 import org.scalatest.FlatSpec
 import org.mockito.Mockito._
+import org.mockito.captor._
 //import org.mockito.ArgumentMatchersSugar._
 
 class CustomWebServiceSpec extends FlatSpec {
@@ -15,9 +16,13 @@ class CustomWebServiceSpec extends FlatSpec {
     user.logout()
     user.login()
 
+    val captor = ArgCaptor[Int]
+
     // verify order
     val strictOrder = inOrder(webService)
-    strictOrder.verify(webService, times(1) )logout(userId)
+    strictOrder.verify(webService, times(1) )logout(captor.capture)
+    assert(captor.value == 5)
+
     strictOrder.verify(webService, times(1) )login (userId)
   }
 
