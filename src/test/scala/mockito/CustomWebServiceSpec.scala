@@ -1,5 +1,7 @@
 package mockito
 
+import java.util
+
 import com.avel.wayoftesting.mockito.{CustomWebService, User}
 import org.mockito.Mockito._
 import org.mockito.captor._
@@ -38,7 +40,13 @@ class CustomWebServiceSpec extends FlatSpec {
 
     verify(webService, times(1) )logout(-1)
 
+  }
 
+  // Full object mocking
+  "LinkedList size" should "return 100" in {
+    val spiedList = spy(new util.LinkedList[String])
+    when(spiedList.size).thenReturn(100)
+    assert(spiedList.size === 100)
   }
 
 }
