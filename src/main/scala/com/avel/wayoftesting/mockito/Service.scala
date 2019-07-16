@@ -1,5 +1,4 @@
-package com.avel.wayoftesting
-
+package com.avel.wayoftesting.mockito
 
 trait Service {
   def isOnline: Boolean

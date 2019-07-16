@@ -1,10 +1,12 @@
-import org.scalatest.FlatSpec
+package mockito
+
+import com.avel.wayoftesting.mockito.{CustomWebService, User}
 import org.mockito.Mockito._
 import org.mockito.captor._
+import org.scalatest.FlatSpec
 //import org.mockito.ArgumentMatchersSugar._
 
 class CustomWebServiceSpec extends FlatSpec {
-  import com.avel.wayoftesting._
 
   "User logout method" should "call webService " in {
 

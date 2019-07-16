@@ -1,6 +1,6 @@
-package com.avel.wayoftesting
+package com.avel.wayoftesting.mockito
 
-import com.typesafe.scalalogging.{LazyLogging}
+import com.typesafe.scalalogging.LazyLogging
 
 class CustomWebService extends Service with LazyLogging {
 

@@ -18,6 +18,4 @@ reload
 ~test
 exit
 ~test
-clean
-reload
-~test
+exit
