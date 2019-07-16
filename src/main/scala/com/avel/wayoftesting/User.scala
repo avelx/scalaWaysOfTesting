@@ -5,13 +5,15 @@ import com.typesafe.scalalogging.{LazyLogging}
 class User(service: Service) extends LazyLogging {
 
   def logout() = {
-    logger.info("USER: logout...")
-    service.logout(5)
+    logger.info("USER: logout")
+    if (service.isOnline)
+      service.logout(5)
   }
 
   def login() = {
     logger.info("USER: logout...")
-    service.login(5)
+    if (service.isOnline)
+      service.login(5)
   }
 
 }

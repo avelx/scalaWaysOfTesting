@@ -8,6 +8,8 @@ class CustomWebServiceSpec extends FlatSpec {
   val webService = mock( classOf[CustomWebService] )
 
   "User logout method" should "call webService " in {
+    when(webService.isOnline).thenReturn(true)
+
     val userId : Int = 5
     val user = new User(webService)
     user.logout()
