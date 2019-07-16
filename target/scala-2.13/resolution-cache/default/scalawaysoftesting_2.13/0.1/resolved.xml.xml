@@ -4,7 +4,7 @@
 		module="scalawaysoftesting_2.13"
 		revision="0.1"
 		status="integration"
-		publication="20190716141616"
+		publication="20190716151057"
 	>
 		<description>
 		scalaWaysOfTesting
@@ -32,7 +32,11 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.13.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.13.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.mockito" name="mockito-core" rev="3.0.0" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-scala_2.13" rev="1.5.11" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-scala-scalatest_2.13" rev="1.5.11" conf="test->default(compile)"/>
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.13" rev="3.9.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.13" rev="3.0.8" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.0.8" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
