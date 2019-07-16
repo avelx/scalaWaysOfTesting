@@ -6,9 +6,9 @@ import org.mockito.captor._
 class CustomWebServiceSpec extends FlatSpec {
   import com.avel.wayoftesting._
 
-  val webService = mock( classOf[CustomWebService] )
-
   "User logout method" should "call webService " in {
+
+    val webService = mock( classOf[CustomWebService] )
     when(webService.isOnline).thenReturn(true)
 
     val userId : Int = 5
@@ -26,11 +26,17 @@ class CustomWebServiceSpec extends FlatSpec {
     strictOrder.verify(webService, times(1) )login (userId)
   }
 
+  "User call clean method" should "call webService and raise exception" in {
+    val webService = mock( classOf[CustomWebService] )
+    when(webService.isOnline).thenReturn(true)
+    when(webService.clear()).thenThrow( classOf[Error] )
 
-//  it should "produce NoSuchElementException when head is invoked" in {
-//    assertThrows[NoSuchElementException] {
-//      Set.empty.head
-//    }
-//  }
+    val user = new User(webService)
+    user.fetch()
+
+    verify(webService, times(1) )logout(-1)
+
+
+  }
 
 }

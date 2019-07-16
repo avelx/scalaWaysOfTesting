@@ -6,4 +6,5 @@ trait Service {
   def init()
   def login(userId: Int)
   def logout(userId: Int)
+  def clear()
 }
