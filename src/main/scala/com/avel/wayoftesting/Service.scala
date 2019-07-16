@@ -3,5 +3,6 @@ package com.avel.wayoftesting
 
 trait Service {
   def init()
-  def run(i: Int)
+  def login(userId: Int)
+  def logout(userId: Int)
 }

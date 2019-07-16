@@ -8,7 +8,12 @@ class CustomWebService extends Service with LazyLogging {
     logger.info("Call init")
   }
 
-  override def run(i: Int): Unit = {
-    logger.info(s"Call run: $i")
+  override def login(i: Int): Unit = {
+    logger.info(s"LogIn: $i")
   }
+
+  override def logout(i: Int): Unit = {
+    logger.info(s"LogOut: $i")
+  }
+
 }

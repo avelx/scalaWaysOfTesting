@@ -2,64 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02415aca-736d-4ee2-b0a5-f4793872cdc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mockito_mockito_core_3_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaWaysOfTesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalaWaysOfTesting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0dd8aafecba73c45c05c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45bb929b0cb274b4391c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0b1f20d07124c455163.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Service.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/WebService.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting$sources/0.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting$sources/0.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting_2.13/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting_2.13/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting_2.13/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/scalawaysoftesting_2.13/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting$sources-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-scalawaysoftesting_2.13-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,19 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -136,8 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -155,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/WebService.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/WebServiceSpec.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala" />
       </list>
@@ -321,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563282129238</updated>
-      <workItem from="1563282132960" duration="4381000" />
+      <workItem from="1563282132960" duration="5804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4381000" />
+    <option name="totallyTimeSpent" value="5804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -403,6 +349,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -412,29 +365,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/CustomWebService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/Service.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/avel/wayoftesting/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/CustomWebServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
