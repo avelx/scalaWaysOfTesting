@@ -6,4 +6,5 @@
 *.css
 *.jar
 target/
+target/scala-2.13
 project/target/
