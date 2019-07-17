@@ -4,7 +4,7 @@
 		module="scalawaysoftesting_2.13"
 		revision="0.1"
 		status="integration"
-		publication="20190716183113"
+		publication="20190717095532"
 	>
 		<description>
 		scalaWaysOfTesting
@@ -38,5 +38,8 @@
 		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.13" rev="3.9.2" conf="compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.13" rev="3.0.8" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.0.8" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.13" rev="2.5.23" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-testkit_2.13" rev="2.5.23" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.13" rev="2.5.23" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
